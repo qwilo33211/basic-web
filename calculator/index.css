@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+body {
+  background-color: #3e3933;
+}
+
+.wrapper {
+  position: relative;
+  left: 50%;
+  margin-top: 100px;
+  margin-left: -150px;
+  width: 300px;
+  background-color: #000000;
+  box-shadow: 0 4px 30px #000;
+}
+
+.wrapper > .top {
+  padding: 20px;
+  background-color: rgb(81, 34, 2);
+}
+
+.wrapper > .top > input {
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 20px;
+  background-color: #35aac7;
+  color: #fff;
+  border: none;
+}
+
+.wrapper > .bottom {
+  background-color: rgb(255, 249, 213);
+  padding: 20px;
+  /* font-size: 40px; */
+}
+
+.wrapper > .bottom > .button {
+  cursor: pointer;
+  width: calc(50% - 20px);
+  height: 60px;
+  display: inline-block;
+  background-color: rgb(56, 158, 53);
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
+  font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
+  color: rgb(81, 34, 2);
+}
+
+.wrapper > .bottom > .button:hover {
+  transition: background-color 0.2s;
+  background-color: rgb(90, 207, 86);
+} 
+
+.wrapper > .bottom > .button:active{
+  transition: none;
+  background-color: rgb(241, 238, 54);
+} 
